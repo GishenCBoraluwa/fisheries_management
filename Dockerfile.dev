@@ -1,0 +1,29 @@
+# ============================================================================
+# DEVELOPMENT DOCKERFILE - Dockerfile.dev
+# ============================================================================
+
+FROM node:20-alpine AS development
+
+# Install nodemon for hot reload
+RUN npm install -g nodemon tsx
+
+WORKDIR /app
+
+# Copy package files
+COPY package*.json ./
+COPY tsconfig.json ./
+
+# Install all dependencies
+RUN npm ci
+
+# Copy source code
+COPY . .
+
+# Generate Prisma client
+RUN npx prisma generate
+
+# Expose port and debug port
+EXPOSE 3000 9229
+
+# Start with nodemon for development
+CMD ["npm", "run", "dev"]

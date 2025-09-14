@@ -1,0 +1,56 @@
+# ============================================================================
+# DEVELOPMENT DOCKER COMPOSE - docker-compose.dev.yml
+# ============================================================================
+
+version: '3.8'
+
+services:
+  # Development database
+  db:
+    image: postgres:15-alpine
+    container_name: fisheries_db_dev
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: fisheries_db_dev
+      POSTGRES_USER: fisheries_dev
+      POSTGRES_PASSWORD: dev_password
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_dev_data:/var/lib/postgresql/data
+    networks:
+      - fisheries_dev_network
+
+  # Development app with hot reload
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+      target: development
+    container_name: fisheries_app_dev
+    restart: unless-stopped
+    environment:
+      NODE_ENV: development
+      PORT: 3000
+      DATABASE_URL: "postgresql://fisheries_dev:dev_password@db:5432/fisheries_db_dev?schema=public"
+      WATCH: "true"
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - dev_logs:/app/logs
+    ports:
+      - "3000:3000"
+      - "9229:9229"  # Debug port
+    depends_on:
+      - db
+    networks:
+      - fisheries_dev_network
+    command: npm run dev
+
+volumes:
+  postgres_dev_data:
+  dev_logs:
+
+networks:
+  fisheries_dev_network:
+    driver: bridge
