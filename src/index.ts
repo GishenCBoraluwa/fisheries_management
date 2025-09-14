@@ -65,10 +65,10 @@ cron.schedule('0 0 * * *', async () => {
 
 // Start server
 const server = app.listen(PORT, () => {
-  logger.info(`🚀 Server is running on port ${PORT}`);
-  logger.info(`📊 Environment: ${process.env.NODE_ENV || 'development'}`);
-  logger.info('⏰ Scheduled tasks configured successfully');
-  logger.info(`🌐 API available at: http://localhost:${PORT}/api/v1`);
+  logger.info(`Server is running on port ${PORT}`);
+  logger.info(`Environment: ${process.env.NODE_ENV || 'development'}`);
+  logger.info('Scheduled tasks configured successfully');
+  logger.info(`API available at: http://localhost:${PORT}/api/v1`);
 });
 
 // Graceful shutdown
@@ -85,7 +85,7 @@ process.on('SIGINT', () => gracefulShutdown('SIGINT'));
 
 // Handle unhandled promise rejections
 process.on('unhandledRejection', (reason, promise) => {
-  logger.error('Unhandled Rejection at:', promise, 'reason:', reason);
+  logger.error(`Unhandled Rejection at: ${String(promise)}, reason: ${String(reason)}`);
 });
 
 // Handle uncaught exceptions
