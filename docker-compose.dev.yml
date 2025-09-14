@@ -31,7 +31,7 @@ services:
     restart: unless-stopped
     environment:
       NODE_ENV: development
-      PORT: 3000
+      PORT: 3001
       DATABASE_URL: "postgresql://fisheries_dev:dev_password@db:5432/fisheries_db_dev?schema=public"
       WATCH: "true"
     volumes:
@@ -39,7 +39,7 @@ services:
       - /app/node_modules
       - dev_logs:/app/logs
     ports:
-      - "3000:3000"
+      - "3001:3001"
       - "9229:9229"  # Debug port
     depends_on:
       - db

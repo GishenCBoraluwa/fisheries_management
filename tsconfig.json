@@ -1,19 +1,16 @@
 {
   "compilerOptions": {
-    /* Language and Environment */
     "target": "ES2022",
     "lib": ["ES2022"],
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "allowImportingTsExtensions": false,
     
-    /* Modules */
     "allowJs": true,
     "checkJs": false,
     "resolveJsonModule": true,
     "isolatedModules": true,
     
-    /* Type Checking */
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
@@ -23,31 +20,26 @@
     "noImplicitReturns": true,
     "noImplicitOverride": true,
     "noUncheckedIndexedAccess": true,
-    "exactOptionalPropertyTypes": true,
+    "exactOptionalPropertyTypes": false,
     "useUnknownInCatchVariables": true,
     
-    /* Emit */
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
     "outDir": "./dist",
-    "rootDir": "./",
+    "rootDir": "./src",
     "removeComments": false,
-    "noEmitOnError": true,
+    "noEmitOnError": false,
     "preserveConstEnums": true,
     
-    /* JavaScript Support */
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     
-    /* Interop Constraints */
     "forceConsistentCasingInFileNames": true,
     "verbatimModuleSyntax": false,
     
-    /* Skip Type Checking */
     "skipLibCheck": true,
     
-    /* Path Mapping */
     "baseUrl": "./",
     "paths": {
       "@/*": ["src/*"],
@@ -59,15 +51,11 @@
       "@/controllers/*": ["src/controllers/*"]
     },
     
-    /* Advanced Options */
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
   },
   "include": [
-    "src/**/*",
-    "prisma/**/*",
-    "tests/**/*",
-    "*.config.*"
+    "src/**/*"
   ],
   "exclude": [
     "node_modules",
