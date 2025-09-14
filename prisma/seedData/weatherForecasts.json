@@ -1,0 +1,54 @@
+[
+  {
+    "id": "1",
+    "forecastDate": "2024-09-11",
+    "location": "Colombo",
+    "latitude": 6.9271,
+    "longitude": 79.8612,
+    "temperature2mMean": 27.5,
+    "windSpeed10mMax": 18.2,
+    "windGusts10mMax": 35.4,
+    "cloudCoverMean": 75.8,
+    "precipitationSum": 3.2,
+    "relativeHumidity2mMean": 82.1
+  },
+  {
+    "id": "2",
+    "forecastDate": "2024-09-11",
+    "location": "Negombo",
+    "latitude": 7.2084,
+    "longitude": 79.8358,
+    "temperature2mMean": 27.2,
+    "windSpeed10mMax": 19.1,
+    "windGusts10mMax": 38.6,
+    "cloudCoverMean": 68.4,
+    "precipitationSum": 2.8,
+    "relativeHumidity2mMean": 79.3
+  },
+  {
+    "id": "3",
+    "forecastDate": "2024-09-11",
+    "location": "Galle",
+    "latitude": 6.0535,
+    "longitude": 80.2210,
+    "temperature2mMean": 26.8,
+    "windSpeed10mMax": 16.7,
+    "windGusts10mMax": 32.1,
+    "cloudCoverMean": 81.2,
+    "precipitationSum": 5.4,
+    "relativeHumidity2mMean": 85.7
+  },
+  {
+    "id": "4",
+    "forecastDate": "2024-09-12",
+    "location": "Colombo",
+    "latitude": 6.9271,
+    "longitude": 79.8612,
+    "temperature2mMean": 28.1,
+    "windSpeed10mMax": 16.8,
+    "windGusts10mMax": 31.2,
+    "cloudCoverMean": 62.3,
+    "precipitationSum": 1.5,
+    "relativeHumidity2mMean": 78.9
+  }
+]

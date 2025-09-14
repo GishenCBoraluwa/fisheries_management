@@ -1,0 +1,58 @@
+[
+  {
+    "harborId": "1",
+    "harborName": "Colombo Fishing Harbor",
+    "locationAddress": "Mattakkuliya, Colombo 15, Sri Lanka",
+    "latitude": 6.9734,
+    "longitude": 79.8606,
+    "totalCapacityKg": 50000,
+    "currentStockKg": 25000,
+    "contactPhone": "+94112345678",
+    "contactEmail": "info@colomboharbor.lk",
+    "operatingHoursStart": "05:00",
+    "operatingHoursEnd": "18:00",
+    "isActive": true
+  },
+  {
+    "harborId": "2",
+    "harborName": "Negombo Fishing Harbor",
+    "locationAddress": "Negombo, Western Province, Sri Lanka",
+    "latitude": 7.2083,
+    "longitude": 79.8358,
+    "totalCapacityKg": 35000,
+    "currentStockKg": 18000,
+    "contactPhone": "+94312345679",
+    "contactEmail": "harbor@negombo.lk",
+    "operatingHoursStart": "04:30",
+    "operatingHoursEnd": "19:00",
+    "isActive": true
+  },
+  {
+    "harborId": "3", 
+    "harborName": "Beruwala Fishing Harbor",
+    "locationAddress": "Beruwala, Kalutara District, Sri Lanka",
+    "latitude": 6.4728,
+    "longitude": 79.9754,
+    "totalCapacityKg": 25000,
+    "currentStockKg": 12000,
+    "contactPhone": "+94342345680",
+    "contactEmail": "beruwala@harbor.lk",
+    "operatingHoursStart": "05:00",
+    "operatingHoursEnd": "17:30",
+    "isActive": true
+  },
+  {
+    "harborId": "4",
+    "harborName": "Trincomalee Fishing Harbor", 
+    "locationAddress": "Trincomalee, Eastern Province, Sri Lanka",
+    "latitude": 8.5874,
+    "longitude": 81.2152,
+    "totalCapacityKg": 30000,
+    "currentStockKg": 15000,
+    "contactPhone": "+94262345681",
+    "contactEmail": "trinco@harbor.lk",
+    "operatingHoursStart": "04:00",
+    "operatingHoursEnd": "18:30",
+    "isActive": true
+  }
+]

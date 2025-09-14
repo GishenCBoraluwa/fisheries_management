@@ -1,0 +1,62 @@
+[
+  {
+    "fishPriceId": "1",
+    "fishTypeId": "1",
+    "priceDate": "2024-09-09",
+    "retailPrice": 1600.00,
+    "wholesalePrice": 1400.00,
+    "marketDemandLevel": "high",
+    "supplyAvailability": 2000,
+    "isActual": true
+  },
+  {
+    "fishPriceId": "2",
+    "fishTypeId": "2", 
+    "priceDate": "2024-09-09",
+    "retailPrice": 800.00,
+    "wholesalePrice": 650.00,
+    "marketDemandLevel": "medium",
+    "supplyAvailability": 3500,
+    "isActual": true
+  },
+  {
+    "fishPriceId": "3",
+    "fishTypeId": "3",
+    "priceDate": "2024-09-09",
+    "retailPrice": 950.00,
+    "wholesalePrice": 800.00,
+    "marketDemandLevel": "medium",
+    "supplyAvailability": 1800,
+    "isActual": true
+  },
+  {
+    "fishPriceId": "4",
+    "fishTypeId": "4",
+    "priceDate": "2024-09-09",
+    "retailPrice": 650.00,
+    "wholesalePrice": 520.00,
+    "marketDemandLevel": "low",
+    "supplyAvailability": 4200,
+    "isActual": true
+  },
+  {
+    "fishPriceId": "5",
+    "fishTypeId": "5",
+    "priceDate": "2024-09-09",
+    "retailPrice": 750.00,
+    "wholesalePrice": 600.00,
+    "marketDemandLevel": "medium",
+    "supplyAvailability": 2800,
+    "isActual": true
+  },
+  {
+    "fishPriceId": "6",
+    "fishTypeId": "6", 
+    "priceDate": "2024-09-09",
+    "retailPrice": 1800.00,
+    "wholesalePrice": 1500.00,
+    "marketDemandLevel": "high",
+    "supplyAvailability": 800,
+    "isActual": true
+  }
+]

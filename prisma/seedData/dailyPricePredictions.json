@@ -1,0 +1,107 @@
+[
+  {
+    "id": "1",
+    "fishTypeId": "1",
+    "predictionDate": "2024-09-11",
+    "retailPrice": 1620.00,
+    "wholesalePrice": 1420.00,
+    "confidence": 0.94,
+    "weatherData": {
+      "temperature_avg": 27.2,
+      "wind_speed_avg": 15.3,
+      "precipitation_avg": 4.2
+    },
+    "oceanData": {
+      "wave_height_avg": 1.8,
+      "wind_wave_height_avg": 0.6
+    },
+    "economicData": {
+      "dollar_rate": 305.50,
+      "fuel_price_avg": 295.00
+    }
+  },
+  {
+    "id": "2",
+    "fishTypeId": "1", 
+    "predictionDate": "2024-09-12",
+    "retailPrice": 1650.00,
+    "wholesalePrice": 1450.00,
+    "confidence": 0.92,
+    "weatherData": {
+      "temperature_avg": 27.8,
+      "wind_speed_avg": 16.1,
+      "precipitation_avg": 2.1
+    },
+    "oceanData": {
+      "wave_height_avg": 1.5,
+      "wind_wave_height_avg": 0.5
+    },
+    "economicData": {
+      "dollar_rate": 305.50,
+      "fuel_price_avg": 295.00
+    }
+  },
+  {
+    "id": "3",
+    "fishTypeId": "2",
+    "predictionDate": "2024-09-11",
+    "retailPrice": 820.00,
+    "wholesalePrice": 670.00,
+    "confidence": 0.89,
+    "weatherData": {
+      "temperature_avg": 27.2,
+      "wind_speed_avg": 15.3,
+      "precipitation_avg": 4.2
+    },
+    "oceanData": {
+      "wave_height_avg": 1.8,
+      "wind_wave_height_avg": 0.6
+    },
+    "economicData": {
+      "dollar_rate": 305.50,
+      "fuel_price_avg": 295.00
+    }
+  },
+  {
+    "id": "4",
+    "fishTypeId": "4",
+    "predictionDate": "2024-09-11",
+    "retailPrice": 680.00,
+    "wholesalePrice": 540.00,
+    "confidence": 0.91,
+    "weatherData": {
+      "temperature_avg": 27.2,
+      "wind_speed_avg": 15.3,
+      "precipitation_avg": 4.2
+    },
+    "oceanData": {
+      "wave_height_avg": 1.8,
+      "wind_wave_height_avg": 0.6
+    },
+    "economicData": {
+      "dollar_rate": 305.50,
+      "fuel_price_avg": 295.00
+    }
+  },
+  {
+    "id": "5",
+    "fishTypeId": "5",
+    "predictionDate": "2024-09-11",
+    "retailPrice": 770.00,
+    "wholesalePrice": 620.00,
+    "confidence": 0.88,
+    "weatherData": {
+      "temperature_avg": 27.2,
+      "wind_speed_avg": 15.3,
+      "precipitation_avg": 4.2
+    },
+    "oceanData": {
+      "wave_height_avg": 1.8,
+      "wind_wave_height_avg": 0.6
+    },
+    "economicData": {
+      "dollar_rate": 305.50,
+      "fuel_price_avg": 295.00
+    }
+  }
+]

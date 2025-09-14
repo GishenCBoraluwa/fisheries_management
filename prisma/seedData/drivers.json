@@ -1,0 +1,50 @@
+[
+  {
+    "driverId": "1",
+    "driverName": "Kamal Perera",
+    "licenseNumber": "LIC001234567",
+    "licenseExpiryDate": "2026-12-31",
+    "nationalId": "199012345678V",
+    "phoneNumber": "+94771234567",
+    "birthDate": "1990-05-15",
+    "address": "123 Main Street, Colombo 07",
+    "hireDate": "2023-01-15",
+    "isActive": true
+  },
+  {
+    "driverId": "2",
+    "driverName": "Sunil Fernando",
+    "licenseNumber": "LIC001234568",
+    "licenseExpiryDate": "2027-06-30", 
+    "nationalId": "198809876543V",
+    "phoneNumber": "+94771234568",
+    "birthDate": "1988-03-22",
+    "address": "456 Galle Road, Mount Lavinia",
+    "hireDate": "2023-02-01",
+    "isActive": true
+  },
+  {
+    "driverId": "3",
+    "driverName": "Lakmal Silva",
+    "licenseNumber": "LIC001234569",
+    "licenseExpiryDate": "2026-08-15",
+    "nationalId": "199205432101V",
+    "phoneNumber": "+94771234569",
+    "birthDate": "1992-11-08",
+    "address": "789 Kandy Road, Kelaniya",
+    "hireDate": "2023-03-10",
+    "isActive": true
+  },
+  {
+    "driverId": "4",
+    "driverName": "Ranjan Wickramasinghe",
+    "licenseNumber": "LIC001234570",
+    "licenseExpiryDate": "2027-04-20",
+    "nationalId": "198512345432V", 
+    "phoneNumber": "+94771234570",
+    "birthDate": "1985-07-12",
+    "address": "321 High Level Road, Nugegoda",
+    "hireDate": "2023-04-05",
+    "isActive": true
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "firstName": "Amara",
+    "lastName": "Wijesinghe",
+    "username": "amara_w",
+    "email": "amara.wijesinghe@email.com",
+    "phoneNumber": "+94771111111",
+    "address": "No. 25, Lake Road, Boralesgamuwa",
+    "postalCode": "10290",
+    "latitude": 6.8406,
+    "longitude": 79.9014,
+    "registrationDate": "2024-01-15",
+    "isActive": true
+  },
+  {
+    "id": "2",
+    "firstName": "Nimal",
+    "lastName": "Jayasena",
+    "username": "nimal_j",
+    "email": "nimal.jayasena@email.com",
+    "phoneNumber": "+94772222222",
+    "address": "No. 15, Flower Road, Colombo 07",
+    "postalCode": "00700",
+    "latitude": 6.9147,
+    "longitude": 79.8607,
+    "registrationDate": "2024-02-01",
+    "isActive": true
+  },
+  {
+    "id": "3",
+    "firstName": "Priya",
+    "lastName": "Mendis",
+    "username": "priya_m",
+    "email": "priya.mendis@email.com",
+    "phoneNumber": "+94773333333",
+    "address": "No. 45, Galle Road, Kalutara",
+    "postalCode": "12000",
+    "latitude": 6.5854,
+    "longitude": 79.9607,
+    "registrationDate": "2024-02-15",
+    "isActive": true
+  },
+  {
+    "id": "4",
+    "firstName": "Rohan",
+    "lastName": "Perera",
+    "username": "rohan_p",
+    "email": "rohan.perera@email.com",
+    "phoneNumber": "+94774444444",
+    "address": "No. 78, Kandy Road, Kadawatha",
+    "postalCode": "11850",
+    "latitude": 7.0067,
+    "longitude": 80.0090,
+    "registrationDate": "2024-03-01",
+    "isActive": true
+  }
+]

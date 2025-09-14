@@ -1,0 +1,59 @@
+[
+  {
+    "routeId": "1",
+    "truckId": "1",
+    "routeDate": "2024-09-10",
+    "startHarborId": "1",
+    "totalDistanceKm": 45.2,
+    "estimatedDurationHours": 3.5,
+    "totalFuelCost": 850.00,
+    "routeStatus": "planned",
+    "startTime": null,
+    "endTime": null,
+    "optimizationData": {
+      "algorithm": "bee_colony",
+      "iterations": 100,
+      "fitness_score": 342.61,
+      "trucks_used": 1,
+      "total_distance": 45.2
+    }
+  },
+  {
+    "routeId": "2",
+    "truckId": "2", 
+    "routeDate": "2024-09-11",
+    "startHarborId": "2",
+    "totalDistanceKm": 38.7,
+    "estimatedDurationHours": 2.8,
+    "totalFuelCost": 720.00,
+    "routeStatus": "planned",
+    "startTime": null,
+    "endTime": null,
+    "optimizationData": {
+      "algorithm": "bee_colony",
+      "iterations": 100,
+      "fitness_score": 298.45,
+      "trucks_used": 1,
+      "total_distance": 38.7
+    }
+  },
+  {
+    "routeId": "3",
+    "truckId": "3",
+    "routeDate": "2024-09-11", 
+    "startHarborId": "3",
+    "totalDistanceKm": 52.1,
+    "estimatedDurationHours": 4.2,
+    "totalFuelCost": 950.00,
+    "routeStatus": "planned",
+    "startTime": null,
+    "endTime": null,
+    "optimizationData": {
+      "algorithm": "bee_colony",
+      "iterations": 100,
+      "fitness_score": 421.33,
+      "trucks_used": 1,
+      "total_distance": 52.1
+    }
+  }
+]

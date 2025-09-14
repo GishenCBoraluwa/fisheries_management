@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "routeId": "1",
+    "orderId": "1",
+    "sequenceNumber": 1,
+    "estimatedArrivalTime": "2024-09-10T10:00:00Z",
+    "actualArrivalTime": null,
+    "deliveryStatus": "scheduled",
+    "distanceFromPreviousKm": 25.5
+  },
+  {
+    "id": "2",
+    "routeId": "2",
+    "orderId": "2",
+    "sequenceNumber": 1,
+    "estimatedArrivalTime": "2024-09-11T15:00:00Z",
+    "actualArrivalTime": null,
+    "deliveryStatus": "scheduled",
+    "distanceFromPreviousKm": 18.3
+  },
+  {
+    "id": "3",
+    "routeId": "3", 
+    "orderId": "3",
+    "sequenceNumber": 1,
+    "estimatedArrivalTime": "2024-09-11T11:30:00Z",
+    "actualArrivalTime": null,
+    "deliveryStatus": "scheduled",
+    "distanceFromPreviousKm": 32.8
+  }
+]

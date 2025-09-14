@@ -1,0 +1,109 @@
+{
+  "name": "fisheries-management-api",
+  "version": "1.0.0",
+  "description": "Fisheries Management System Backend with Node.js, Express, and PostgreSQL",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx --watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "clean": "rimraf dist",
+    "db:generate": "prisma generate",
+    "db:push": "prisma db push",
+    "db:migrate": "prisma migrate dev",
+    "db:migrate:deploy": "prisma migrate deploy",
+    "db:seed": "tsx prisma/seed.ts",
+    "db:reset": "prisma migrate reset --force && npm run db:seed",
+    "db:studio": "prisma studio",
+    "db:fresh": "npm run clean:db && npm run db:push && npm run db:seed",
+    "clean:db": "prisma migrate reset --force --skip-seed",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage",
+    "test:ui": "vitest --ui",
+    "lint": "eslint src/**/*.ts --fix",
+    "lint:check": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts",
+    "format:check": "prettier --check src/**/*.ts",
+    "typecheck": "tsc --noEmit",
+    "start:prod": "NODE_ENV=production node dist/index.js",
+    "setup": "npm install && npm run db:generate && npm run db:fresh",
+    "postinstall": "prisma generate"
+  },
+  "keywords": [
+    "fisheries",
+    "management",
+    "nodejs",
+    "express",
+    "postgresql",
+    "prisma",
+    "typescript",
+    "api",
+    "crud",
+    "weather",
+    "pricing",
+    "optimization"
+  ],
+  "author": "Gishen Boraluwa",
+  "license": "ISC",
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^22.18.3",
+    "@types/node-cron": "^3.0.11",
+    "@typescript-eslint/eslint-plugin": "^8.20.0",
+    "@typescript-eslint/parser": "^8.20.0",
+    "@vitest/coverage-v8": "^3.2.4",
+    "@vitest/ui": "^3.2.4",
+    "eslint": "^9.20.0",
+    "prettier": "^3.4.2",
+    "rimraf": "^6.0.1",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.16.1",
+    "axios": "^1.12.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "helmet": "^8.1.0",
+    "joi": "^17.13.3",
+    "morgan": "^1.10.1",
+    "node-cron": "^3.0.3",
+    "prisma": "^6.16.1"
+  },
+  "prisma": {
+    "schema": "prisma/schema.prisma"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@typescript-eslint/recommended",
+      "@typescript-eslint/recommended-requiring-type-checking"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "root": true,
+    "rules": {
+      "@typescript-eslint/no-unused-vars": "error",
+      "@typescript-eslint/no-explicit-any": "warn"
+    }
+  },
+  "prettier": {
+    "semi": true,
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "printWidth": 100,
+    "tabWidth": 2
+  }
+}

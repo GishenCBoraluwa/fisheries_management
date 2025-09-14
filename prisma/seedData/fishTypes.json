@@ -1,0 +1,62 @@
+[
+  {
+    "fishTypeId": "1",
+    "fishName": "Yellowfin tuna - Kelawalla",
+    "scientificName": "Thunnus albacares",
+    "category": "saltwater",
+    "averageShelfLifeHours": 96,
+    "storageTemperatureMin": -1,
+    "storageTemperatureMax": 2,
+    "isActive": true
+  },
+  {
+    "fishTypeId": "2", 
+    "fishName": "Sail fish - Thalapath",
+    "scientificName": "Istiophorus platypterus",
+    "category": "saltwater",
+    "averageShelfLifeHours": 48,
+    "storageTemperatureMin": 0,
+    "storageTemperatureMax": 4,
+    "isActive": true
+  },
+  {
+    "fishTypeId": "3",
+    "fishName": "Skipjack tuna - Balaya", 
+    "scientificName": "Katsuwonus pelamis",
+    "category": "saltwater",
+    "averageShelfLifeHours": 96,
+    "storageTemperatureMin": -1,
+    "storageTemperatureMax": 2,
+    "isActive": true
+  },
+  {
+    "fishTypeId": "4",
+    "fishName": "Herrings - Hurulla",
+    "scientificName": "Clupea harengus", 
+    "category": "saltwater",
+    "averageShelfLifeHours": 24,
+    "storageTemperatureMin": 0,
+    "storageTemperatureMax": 4,
+    "isActive": true
+  },
+  {
+    "fishTypeId": "5",
+    "fishName": "Indian Scad - Linna",
+    "scientificName": "Decapterus russelli",
+    "category": "saltwater", 
+    "averageShelfLifeHours": 48,
+    "storageTemperatureMin": 0,
+    "storageTemperatureMax": 4,
+    "isActive": true
+  },
+  {
+    "fishTypeId": "6",
+    "fishName": "Trevally - Paraw",
+    "scientificName": "Caranx ignobilis",
+    "category": "saltwater",
+    "averageShelfLifeHours": 36,
+    "storageTemperatureMin": 0,
+    "storageTemperatureMax": 4,
+    "isActive": true
+  }
+]

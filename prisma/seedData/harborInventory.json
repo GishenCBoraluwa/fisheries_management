@@ -1,0 +1,62 @@
+[
+  {
+    "harborInventoryId": "1",
+    "harborId": "1",
+    "fishTypeId": "1",
+    "availableQuantityKg": 500.50,
+    "qualityGrade": "A",
+    "catchDate": "2024-09-08",
+    "expiryDate": "2024-09-12",
+    "pricePerKg": 1200.00
+  },
+  {
+    "harborInventoryId": "2",
+    "harborId": "1",
+    "fishTypeId": "2",
+    "availableQuantityKg": 750.25,
+    "qualityGrade": "A",
+    "catchDate": "2024-09-08",
+    "expiryDate": "2024-09-10",
+    "pricePerKg": 800.00
+  },
+  {
+    "harborInventoryId": "3",
+    "harborId": "2",
+    "fishTypeId": "3",
+    "availableQuantityKg": 300.75,
+    "qualityGrade": "A",
+    "catchDate": "2024-09-09",
+    "expiryDate": "2024-09-13",
+    "pricePerKg": 950.00
+  },
+  {
+    "harborInventoryId": "4", 
+    "harborId": "2",
+    "fishTypeId": "4",
+    "availableQuantityKg": 450.00,
+    "qualityGrade": "B",
+    "catchDate": "2024-09-09",
+    "expiryDate": "2024-09-10",
+    "pricePerKg": 650.00
+  },
+  {
+    "harborInventoryId": "5",
+    "harborId": "3",
+    "fishTypeId": "5",
+    "availableQuantityKg": 600.25,
+    "qualityGrade": "A",
+    "catchDate": "2024-09-09",
+    "expiryDate": "2024-09-11",
+    "pricePerKg": 750.00
+  },
+  {
+    "harborInventoryId": "6",
+    "harborId": "3",
+    "fishTypeId": "6",
+    "availableQuantityKg": 200.50,
+    "qualityGrade": "A",
+    "catchDate": "2024-09-09",
+    "expiryDate": "2024-09-10",
+    "pricePerKg": 1800.00
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "1",
+    "title": "Climate Change Impact on Sri Lankan Fisheries",
+    "slug": "climate-change-impact-sri-lankan-fisheries",
+    "content": "Climate change poses significant challenges to Sri Lankan fisheries. Rising sea temperatures affect fish migration patterns, while changing weather patterns impact fishing seasons. This comprehensive analysis explores the current situation and potential adaptation strategies for sustainable fishing practices.",
+    "excerpt": "Understanding how climate change affects Sri Lankan fisheries and adaptation strategies.",
+    "category": "climate_change",
+    "tags": ["climate", "fisheries", "sri lanka", "adaptation", "temperature"],
+    "author": "Dr. Marine Researcher",
+    "isPublished": true,
+    "readCount": 245,
+    "publishedAt": "2024-01-15T10:00:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Policy Recommendations for Sustainable Fishing",
+    "slug": "policy-recommendations-sustainable-fishing",
+    "content": "Sustainable fishing practices require comprehensive policy frameworks. This article outlines key policy recommendations including quotas, seasonal restrictions, and community-based management approaches that can help preserve marine ecosystems while supporting fishing communities.",
+    "excerpt": "Key policy recommendations to ensure sustainable fishing practices in Sri Lanka.",
+    "category": "policy",
+    "tags": ["policy", "sustainability", "management", "governance", "regulations"],
+    "author": "Policy Expert",
+    "isPublished": true,
+    "readCount": 189,
+    "publishedAt": "2024-02-10T14:30:00Z"
+  },
+  {
+    "id": "3",
+    "title": "Combating Overfishing in Coastal Waters",
+    "slug": "combating-overfishing-coastal-waters", 
+    "content": "Overfishing threatens marine ecosystems and livelihoods. This article examines current overfishing trends, their impacts on fish populations and coastal communities, and evidence-based solutions for coastal water management and conservation.",
+    "excerpt": "Strategies to combat overfishing and protect marine ecosystems.",
+    "category": "overfishing",
+    "tags": ["overfishing", "conservation", "marine", "ecosystem", "sustainability"],
+    "author": "Marine Biologist",
+    "isPublished": true,
+    "readCount": 312,
+    "publishedAt": "2024-03-05T09:15:00Z"
+  },
+  {
+    "id": "4",
+    "title": "Understanding IUU Fishing: Challenges and Solutions",
+    "slug": "understanding-iuu-fishing-challenges-solutions",
+    "content": "Illegal, Unreported and Unregulated (IUU) fishing undermines conservation efforts and economic sustainability. This comprehensive guide explores detection methods, enforcement challenges, international cooperation frameworks, and community-based monitoring systems.",
+    "excerpt": "A comprehensive overview of IUU fishing and effective countermeasures.",
+    "category": "iuu_fishing",
+    "tags": ["IUU", "illegal fishing", "enforcement", "monitoring", "compliance"],
+    "author": "Fisheries Inspector",
+    "isPublished": true,
+    "readCount": 156,
+    "publishedAt": "2024-03-20T16:45:00Z"
+  },
+  {
+    "id": "5",
+    "title": "Sustainable Aquaculture Practices in Sri Lanka",
+    "slug": "sustainable-aquaculture-practices-sri-lanka",
+    "content": "Aquaculture presents opportunities for sustainable fish production while reducing pressure on wild stocks. This article discusses best practices for fish farming, environmental considerations, and the role of aquaculture in meeting growing seafood demand.",
+    "excerpt": "Exploring sustainable aquaculture as an alternative to wild-caught fish.",
+    "category": "policy",
+    "tags": ["aquaculture", "sustainability", "fish farming", "environment"],
+    "author": "Aquaculture Specialist", 
+    "isPublished": true,
+    "readCount": 98,
+    "publishedAt": "2024-04-12T11:20:00Z"
+  }
+]
