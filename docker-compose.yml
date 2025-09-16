@@ -29,7 +29,7 @@ services:
     container_name: fisheries_redis
     restart: unless-stopped
     ports:
-      - "6379:6379"
+      - "6378:6378"
     volumes:
       - redis_data:/data
     networks:
@@ -54,7 +54,7 @@ services:
       NODE_ENV: production
       PORT: 3000
       DATABASE_URL: "postgresql://${DB_USER:-fisheries_user}:${DB_PASSWORD:-fisheries_password}@db:5432/${DB_NAME:-fisheries_db}?schema=public"
-      REDIS_URL: "redis://redis:6379"
+      REDIS_URL: "redis://redis:6378"
       WEATHER_API_URL: "https://api.open-meteo.com/v1"
       PREDICTION_API_URL: "http://host.docker.internal:8000/api/v1/predictions"
       OPTIMIZATION_API_URL: "http://host.docker.internal:8000/api/v1/optimization"
